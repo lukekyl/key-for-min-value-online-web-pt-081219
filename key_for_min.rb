@@ -2,18 +2,17 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  if !name_hash
-    return nil
-  else
   min = ""
   i = 999
-  
   name_hash.each{|item, value|
     if value < i
       i = value
       min = item
     end
   }
+  if name_hash.nil?
+    return nil 
+  else
   min
-end
+  end
 end
