@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
       min = item
     end
   }
-  if name_hash.nil?
+  if name_hash == false
     return nil 
   else
     min
