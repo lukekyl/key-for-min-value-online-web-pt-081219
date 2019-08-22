@@ -13,6 +13,6 @@ def key_for_min_value(name_hash)
   if name_hash.nil?
     return nil 
   else
-  min
+    min
   end
 end
