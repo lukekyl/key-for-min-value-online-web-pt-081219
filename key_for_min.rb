@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil 
   else
     min = ""
-    i = name_hash.values.max
+    i = name_hash.max
   end
   name_hash.each{|item, value|
     if value < i
