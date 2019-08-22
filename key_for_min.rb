@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
     min = ""
     i = 999
   end
+  
   name_hash.each{|item, value|
     if value < i
       i = value
